@@ -54,7 +54,11 @@ figcaption {
   }
 
   .container img {
-    min-width: 200px;
+    min-width: 300px;
+    max-width: 100%; 
+    max-height: 100%; 
+    width: auto;
+    height: auto;
   }
 
   .inverted {
